@@ -1,2 +1,2 @@
 # featureExtraction
-Extracting most significant feature from a video from a dataset
+This Python script processes a collection of 2-second videos, automatically extracting the frame that shows the maximum deformation of a sensor when subjected to varying forces using different objects. It leverages OpenCV for video processing and frame extraction, and NumPy for numerical analysis. Each video is analyzed frame-by-frame to identify the point of greatest change compared to the initial frame, capturing critical moments of impact in sensor testing scenarios. The results are saved as images, facilitating easy review and further analysis.
